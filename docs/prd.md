@@ -20,9 +20,9 @@ Everyone on our team. Most of them know basic Markdown.
 ## Scope
 
 ### In scope
-- Each recipie is a Markdown file in the repo.
+- Each recipe is a Markdown file in the repo.
 - Team members submit recipes through pull requests.
-- Each recipe includes: name, category, ingredients, and steps.
+- Each recipe includes: name, category, ingredients, steps, and author.
 - An index page lists all recipes, grouped by category.
 
 ### Out of scope
