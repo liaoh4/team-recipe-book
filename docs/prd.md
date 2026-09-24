@@ -1,6 +1,6 @@
 # PRD: Team Recipe Book v1.0
 
-- **Status:** Draft
+- **Status:** Approved
 - **Owner:** @liaoh4
 - **Requirement:** #4
 - **Discussion:** #3
@@ -41,5 +41,5 @@ Everyone on our team. Most of them know basic Markdown.
 - At least 5 different team members submit a recipe.
 - Anyone can find a recipe in under 30 seconds using the index page.
 
-## Open questions
-- Should we allow a recipe to belong to more than one category?
+## Decisions
+- Each recipe belongs to exactly one category. See [design.md](design.md).
