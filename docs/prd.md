@@ -37,7 +37,9 @@ Everyone on our team. Most of them know basic Markdown.
 - Drinks
 
 ## Success metrics
-- The team likes it.
+- At least 20 recipes in the first month.
+- At least 5 different team members submit a recipe.
+- Anyone can find a recipe in under 30 seconds using the index page.
 
 ## Open questions
 - Should we allow a recipe to belong to more than one category?
