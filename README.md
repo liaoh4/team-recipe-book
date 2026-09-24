@@ -6,4 +6,8 @@ a shared recipe book for our team
 - Anyone can browse recipes by category.
 
 ## Status
-🚧 Planning for v1.0
+🚧 v1.0 in development.
+
+## Browse recipes
+See [RECIPES.md](RECIPES.md) for all recipes.~
+~
