@@ -1,0 +1,36 @@
+name: 📋 Requirement
+description: Propose a new product requirement
+title: "[Req] "
+labels: ["requirement", "needs-triage"]
+body:
+  - type: textarea
+    id: background
+    attributes:
+      label: Background
+      description: Why do we need this? What problem does it solve?
+    validations:
+      required: true
+  - type: textarea
+    id: user-story
+    attributes:
+      label: User story
+      placeholder: As a <role>, I want <goal>, so that <benefit>.
+    validations:
+      required: true
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Acceptance criteria
+      description: How do we know it's done? One checkbox per item.
+      value: |
+        - [ ] 
+    validations:
+      required: true
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - P1-high
+        - P2-medium
+        - P3-low
