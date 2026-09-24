@@ -30,6 +30,7 @@ The script reads the fields from it.
 ---
 name: Fluffy Pancakes
 category: breakfast
+author: liaoh4
 ---
 
 ## Ingredients
