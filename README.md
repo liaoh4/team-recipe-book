@@ -8,6 +8,9 @@ a shared recipe book for our team
 ## Status
 🚧 v1.0 in development. Sprint 2 is in progress.
 
+## Browse recipes
+See [RECIPES.md](RECIPES.md) for all recipes.
+
 ## How to submit a recipe
 1. Copy [the template](recipes/_template.md) into a category folder, such as `recipes/dessert/`.
 2. Name the file in lowercase with hyphens, such as `lemon-tart.md`.
