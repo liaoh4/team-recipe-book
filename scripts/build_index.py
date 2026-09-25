@@ -25,6 +25,8 @@ def collect_recipes():
     """Group recipes by category."""
     recipes = {category: [] for category in CATEGORIES}
     for path in sorted(RECIPES_DIR.rglob("*.md")):
+        if path.name.startswith("_"):
+            continue
         fields = read_front_matter(path)
         category = fields.get("category")
         if category in recipes:
