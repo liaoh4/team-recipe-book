@@ -6,8 +6,14 @@ a shared recipe book for our team
 - Anyone can browse recipes by category.
 
 ## Status
-🚧 v1.0 in development.
+🚧 v1.0 in development. Sprint 2 is in progress.
 
 ## Browse recipes
-See [RECIPES.md](RECIPES.md) for all recipes.~
-~
+See [RECIPES.md](RECIPES.md) for all recipes.
+
+## How to submit a recipe
+1. Copy [the template](recipes/_template.md) into a category folder, such as `recipes/dessert/`.
+2. Name the file in lowercase with hyphens, such as `lemon-tart.md`.
+3. Fill in all fields: name, category, and author.
+4. Run `python3 scripts/build_index.py` to update the index.
+5. Open a pull request.
